@@ -7,3 +7,5 @@ sudo chown -R www-data:www-data /var/www/html/nextcloud
 sudo chmod -R 755 /var/www/html/nextcloud
 cd /home/next-install
 cp nextcloud.conf /etc/apache2/conf-enabled/
+sudo a2enmod rewrite dir mime env headers
+sudo systemctl restart apache2
