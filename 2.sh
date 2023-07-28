@@ -1,5 +1,1 @@
-cd /tmp && wget https://download.nextcloud.com/server/releases/latest.zip 
-unzip latest.zip
-rm latest.zip
-mv nextcloud /var/www
-a2enmod rewrite headers env dir mime
+sudo nano /etc/php/8.0/apache2/php.ini
