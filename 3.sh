@@ -1,4 +1,4 @@
-sudo apt install wget unzip
+sudo apt install wget unzip -y
 cd /tmp/
 wget https://download.nextcloud.com/server/releases/latest.zip
 unzip latest.zip
